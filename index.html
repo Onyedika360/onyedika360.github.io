@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio-Webiste</Porfolio-Webiste></title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a59e3395a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav><img src="Images/O.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-xmark" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+        
+        </nav>
+        <div class="header-text">
+            <h1 class="title">I'm Onyedikachukwu,</h1>
+            <p id="typing">Hi, I'm <span>Onyedikachukwu</span><br>Ojukwu from Nigeria</p>
+
+        </div>
+       
+    </div>
+</div>
+<!---------------about--------------> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/1A332AB0-75D0-43B1-9915-39001E3347DC_1_105_c.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I am a Computer Science student with a passion for machine learning and artificial intelligence. My journey in technology started with a curiosity about how things work. Initially, I intended to delve into aerospace, but I soon discovered my passion for data science as I began working on various projects. <br>
+                    My most recent project involves researching and building a classification model for neurodegenerative diseases using time series datasets and machine learning techniques and technologies.
+                    I am the founding president of the Data Science Club at Texas Southern University, fostering collaborations with companies like <strong>Google, Oracle, and others.</strong> <br>
+                    In addition to my academic and professional pursuits, I am also a small business owner, running a food trucking business.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links"  onclick="opentab('Experience')"> Experience</p>
+                        <p class="tab-links"  onclick="opentab('Education')"> Awards & Accolades</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Science</span><br><li><strong>Languages:</strong> Python, R, SQL</li>
+                            <li><strong>Packages:</strong> NumPy, pandas, matplotlib, seaborn, scipy, statsmodels, streamlit</li>
+                            <li><strong>Dev Tools:</strong> git, AWS, Azure, Git Actions, VS Code, Jupyter, Pycharm, Postman</li>
+                            <li><strong>General:</strong> Data Scraping, Data Cleaning, Inference, Leadership, Software Development, Object-Oriented Programming</li></li>
+
+                            <li><span>Machine Learning</span><br> <li><strong>Languages:</strong> Python, C++</li>
+                            <li><strong>Packages:</strong> scikit-learn, PyTorch, TensorFlow, Keras, Opencv</li>
+                            <li><strong>Dev Tools:</strong> git, AWS, Azure, Git Actions, VS Code, Jupyter, Pycharm</li>
+                            <li><strong>General:</strong> ML & DL, Software Development, Inference, Leadership, Object-Oriented Programming</li></li>
+                          
+
+                        </ul>
+                        
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <div class="experience">
+                            <h3><span>Data Science Intern</span></h3>
+                            <h4>Texas Southern University</h4>
+                            <span>05/2024 - 08/2024, Houston, Texas</span>
+                            <ul>
+                                <li>Introduction to Data Science and Machine Learning</li>
+                                <li>Statistics for Sciences</li>
+                                <li>Researched Alzheimer's disease and other neurodegenerative diseases through the analysis of EEG scans, acquiring domain knowledge.</li>
+                                <li>Utilized matplotlib to visualize datasets from the open neuro repo. Employed derivative data for temporal analysis and transformed time series data to the frequency domain using scipy, enabling the identification of correlations.</li>
+                                <li>Applied mathematical and computational techniques, such as FFT, to effectively extract clean wave patterns.</li>
+                                <li>Developed accurate binary classification model using TensorFlow. Achieved 87% prediction accuracy in determining subjects' health status.</li>
+                            </ul>
+                        </div>
+
+                        <div class="experience">
+                            <h3><span>Cloud Technician</span></h3>
+                            <h4>Freelance</h4>
+                            <span>01/2022 - 05/2022</span>
+                            <ul>
+                                <li>Built SMTP servers on reliable cloud platforms like AWS and Azure, utilizing Ubuntu servers configured via SSH. Empowered small businesses to boost product visibility and drive traffic effectively.</li>
+                                <li>Maintained clients’ products such as Email servers by ensuring the SSL Certificate is authenticated correctly to ensure reliable traffic.</li>
+                                <li>Designed and implemented a serverless API gateway using DynamoDB, leveraging NoSQL database principles and partition keys for efficiently collecting long URLs from short ID tables.</li>
+                                <li>Added custom domain to API gateway to serve as a shortener for clients to present their businesses professionally.</li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                    
+                    <div class="tab-contents" id="Education">
+            
+
+                        <h3><span>Organizations</span></h3>
+                        <ul>
+                            <li><strong>Tigers Data Science club:</strong> Founding President (2023 - 2024)</li>
+                            <li><strong>National Society Of Black Engineers:</strong>Technical Director (01/2023 - 2024)</li>
+                            <li><strong>Society of Women Engineers: Affiliate</strong> (07/2022 - 2024)</li>
+                        </ul>
+                        <h3><span>Awards</span></h3>
+                        <ul>
+                            <li>COSET Outstanding student Award 2x</li>
+                            <li>Dean's List 4X</li>
+                            <li>NSBE Houston Professionals Outstanding Academic Achievement Award 2023</li>
+                            <li>157 Lbs Deadlift Regional Bronze Medal2017</li>
+                            
+                        </ul>
+                        <h3><span>Scholarships</span></h3>
+                        <ul>
+                            <li>LastMile Scholarhip Award</li>
+                            <li>COSET Scholarhip Award</li>
+                            <li>Paya Scholarhip Award</li>
+                            <li>Blacks life Matter Scholarhip</li>
+                            <li>NSBE Rice Provost Scholarhip Award</li>
+                    
+                        </ul>
+                    </div>
+                </div>
+                       
+                        
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------services------------------>  
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="Service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Mahine Learning applications </h2>
+                <p>Builidng machine learning applications for real-world</p>
+                <a href="#"> Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2> Data Science </h2>
+                <p>Builidng machine learning applications for real-world</p>
+                <a href="#"> Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2> Data Engineering</h2>
+                <p>Builidng machine learning applications for real-world</p>
+                <a href="#"> Learn More</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!---------------------portfoilio----------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/images/work-1.png" alt="Social Media App">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut ligula non mi varius sagittis. 
+                        Fusce ac felis sit amet ligula pharetra condimentum. Donec posuere vulputate arcu. Curabitur nisi.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/images/work-2.png" alt="Online Shopping App">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut ligula non mi varius sagittis. 
+                        Fusce ac felis sit amet ligula pharetra condimentum. Donec posuere vulputate arcu. Curabitur nisi.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/images/work-3.png" alt="Online Shopping App">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut ligula non mi varius sagittis. 
+                        Fusce ac felis sit amet ligula pharetra condimentum. Donec posuere vulputate arcu. Curabitur nisi.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-------------------contact-------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>Onyedikachukwuojukwu@outlook.com</p>
+                <p><i class="fa-solid fa-phone"></i>(346)-475-8935</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100092473186395&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://linkedin.com/in/onyedikachukwu-ojukwu"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Onyedika360"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Images/images/Onyedikachukwu's Resume.pdf" download class="btn btn2"> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    
+    </div>
+    <div class="copyright">
+        <p>Copyright © Onyedikachukwu Ojukwu.  </p>
+    </div>
+</div>
+
+
+
+<SCript>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</SCript> 
+
+<script>
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+
+        sidemenu.style.right ="0";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const typingElement = document.getElementById('typing');
+        const textArray = [
+        "A machine learning engineer",
+        "I am a self-taught chef",
+        "A Food truck Owner"
+    ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let currentText = '';
+        let currentChars = '';
+
+        function type() {
+            if (textIndex < textArray.length) {
+                if (charIndex < textArray[textIndex].length) {
+                    currentChars += textArray[textIndex].charAt(charIndex);
+                    typingElement.textContent = currentChars;
+                    charIndex++;
+                    setTimeout(type, 100);
+                } else {
+                    charIndex = 0;
+                    currentChars = '';
+                    textIndex++;
+                    setTimeout(type, 2000); // Delay before typing next text
+                }
+            } else {
+                textIndex = 0;
+                setTimeout(type, 2000);
+            }
+    }
+
+    type();
+});
+
+</script>
+    
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzN4xce3IHpvzW_mfsYFvhU432zZ0yVQ-fGy6aKGUYvlKGAt5lWQZECP8rH4qk_1kyR/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succefully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+</body>
+</html>
